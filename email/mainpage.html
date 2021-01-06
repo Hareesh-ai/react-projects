@@ -1,0 +1,210 @@
+<body>
+	<div id="mainbody" class="mainbody">
+		<div class="topnav" id="topnav">
+			<!-- main three lines -->
+			<div class="main-menu" id="main-menu" title="Main Menu" onclick="sidenavgettoggel()">
+				<svg focusable="false" viewBox="0 0 24 24" onclick="focuse()">
+					<path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+				</svg>
+			</div>
+			<!-- M Gmail image -->
+			<div class="gimage" id="gimage">
+				<a class="gb_ue gb_qc gb_se" href="#inbox" title="Gmail">
+					<img class="gb_uc"
+                        src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_1x_r2.png"
+                        srcset="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_1x_r2.png 1x, https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_2x_r2.png 2x "
+                        alt="" aria-hidden="true" style="width:109px;height:40px"></a>
+			</div>
+
+			<div id="searchbar" class="searchbar">
+				<i class="fa fa-search" id="i"></i>
+				<input type="search" name="search" id="search" placeholder="Search mail">
+            </div>
+				<div id="settingicon" class="settingicon" title="Setting">
+					<i class="fa fa-gear" id="setting_i" style="font-size:24px"></i>
+				</div>
+
+			</div>
+			<!-- compose -->
+
+			<!-- horizontal navigation -->
+			<div class="horizontalnav" id="horizontalnav">
+				<div class="check" id="check">
+					<input type="checkbox" name="checkselect" id="checkselect">
+					<a>
+						<i class="fa fa-angle-down" id="hnave" aria-hidden="true"></i>
+
+					</a>
+
+				</div>
+				<div class="refresh" id="refresh">
+					<a>
+						<i class="fa fa-refresh" aria-hidden="true"></i>
+					</a>
+				</div>
+				<div class="ellipsis" id="ellipsis">
+					<a>
+						<i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+					</a>
+				</div>
+				<div class="angel_left" id="angel_left">
+					<a>
+						<i class="fa fa-angle-left" aria-hidden="true"></i>
+					</a>
+				</div>
+				<div class="angel_right" id="angel_right">
+					<a>
+						<i class="fa fa-angle-right" aria-hidden="true"></i>
+					</a>
+				</div>
+				<div class="keyboard" id="keyboard">
+					<a>
+						<i class="fa fa-keyboard-o" aria-hidden="true"></i>
+					</a>
+				</div>
+			</div>
+			<!-- main content -->
+			<div class="main_content" id="main_content">
+				<section id="primary">
+					<i class="fa fa-inbox" aria-hidden="true"></i>
+					<span class="main_contentspan">Primary</span>
+				</section>
+				<section id="social">
+					<i class="fa fa-users" aria-hidden="true"></i>
+					<span class="main_contentspan">Social</span>
+				</section>
+				<section id="promotion">
+					<i class="fa fa-tag" aria-hidden="true"></i>
+					<span class="main_contentspan">Promotions</span>
+				</section>
+			</div>
+
+
+			<!-- side navigation -->
+			<div id="mainsidenav" class="mainsidenav">
+				<!-- compose -->
+				<div class="compose" id="compose">
+					<!-- <button id="compose" value="compose"> compose
+                </button> -->
+
+					<a id="composebut"><i class="fa fa-plus" id="pluseicon" aria-hidden="true"></i><span
+                        id="comspan">compose</span> </a>
+				</div>
+				<div class="sidenav" id="sidenav">
+					<div class="inbox" id="inbox">
+						<a>
+							<i class="fa fa-inbox" id="inBOX" aria-hidden="true"></i>
+							<span class="navspan">Inbox</span>
+						</a>
+					</div>
+					<div class="starred" id="starred">
+						<a>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<span class="navspan">Starred</span>
+						</a>
+					</div>
+					<div class="snoozed" id="snoozed">
+						<a>
+							<i class="fa fa-clock-o" aria-hidden="true"></i>
+							<span class="navspan">Snoozed</span>
+						</a>
+					</div>
+					<div class="sent" id="sent">
+						<a>
+							<i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+							<span class="navspan">Sent</span>
+						</a>
+					</div>
+					<div class="draft" id="draft">
+						<a>
+							<i class="fa fa-file" aria-hidden="true"></i>
+							<span class="navspan">Draft</span>
+						</a>
+					</div>
+					<div class="more" id="more">
+						<a>
+							<i class="fa fa-angle-down" aria-hidden="true"></i>
+							<span class="navspan">More</span>
+						</a>
+					</div>
+					<div class="less" id="less">
+						<a>
+							<i class="fa fa-angle-up" aria-hidden="true"></i>
+							<span class="navspan">less</span>
+						</a>
+					</div>
+					<div class="allmain" id="allmain">
+						<a>
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+							<span class="navspan">All Main</span>
+						</a>
+					</div>
+					<div class="Trash" id="Trash">
+						<a>
+							<i class="fa fa-trash" aria-hidden="true"></i>
+							<span class="navspan">Trash</span>
+						</a>
+					</div>
+					<div class="scheduled" id="scheduled">
+						<a>
+							<i class="fa fa-calendar" aria-hidden="true"></i>
+							<span class="navspan">Scheduled</span>
+						</a>
+					</div>
+				</div>
+				<!-- <div class="" id="">
+                <a>
+                   
+                </a>
+            </div>
+            <div class="" id=""><a></a></div>
+            <div class="" id=""><a></a></div>
+            <div class="" id=""><a></a></div> -->
+
+
+			</div>
+
+			<div class="popcompose" id="popcompose">
+				<div class="popshow" id="popshow">
+
+					<div class="msgdiv">
+						<span>New Message</span>
+					</div>
+
+					<div class="iconrightpop">
+						<a><i class="fa fa-window-minimize" aria-hidden="true"></i></a>
+						<a><i class="fa fa-arrows-alt" aria-hidden="true"></i></a>
+						<a><i class="fa fa-times" aria-hidden="true"></i></a>
+					</div>
+				</div>
+				<div class="to_cc_bcc" id="to_cc_bcc">
+					<span>To</span>
+					<textarea name="" id="totextarea" cols="3" rows="1"></textarea>
+
+				</div>
+
+				<div class="subject" id="subject">
+					<span id="subspan">Subject</span>
+					<textarea name="" id="subject1" cols="3" rows="1"></textarea>
+				</div>
+				<div class="emptydiv" id="emptydiv">
+
+				</div>
+				<div class="footericons" id="footericons">
+					<div class="sendbuttondiv" id="sendbuttondiv">
+						<input type="button" id="sendbutton" value="Send">
+                </div>
+						<div class="iconsh" id="iconsh">
+							<a><i class="fa fa-text-width" aria-hidden="true"></i></a>
+							<a><i class="fa fa-paperclip" aria-hidden="true"></i></a>
+							<a><i class="fa fa-link" aria-hidden="true"></i></a>
+							<a><i class="fa fa-picture-o" aria-hidden="true"></i></a>
+							<a><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a>
+							<a><i class="fa fa-trash" aria-hidden="true"></i></a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+</body>
